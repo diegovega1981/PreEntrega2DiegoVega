@@ -1,0 +1,19 @@
+@mixin formato-inicial {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+@mixin formato-p {
+        color: #d5d6c4;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        text-align: center;
+}
